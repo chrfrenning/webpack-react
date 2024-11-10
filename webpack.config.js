@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: 'index.js',
     },
     module: {
         rules: [
@@ -24,5 +24,5 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
     mode : 'development',
-    watch: true
+    watch: false
 };
